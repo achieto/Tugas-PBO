@@ -4,7 +4,7 @@
 classDiagram
       Perlengkapan <|-- Tas
       Perlengkapan <|-- Sepatu
-      Perlengkapan ..o"*" Stock : mempunyai
+      Perlengkapan "0"--o"*" Stock : mempunyai
 
       class Perlengkapan{
         <<abstract>>
@@ -25,6 +25,8 @@ classDiagram
       class Stock{
           -String tanggal
           -int jumlah
+          +restocks(int item)
+          +sold(int item)
       }
 ```		
 
@@ -34,7 +36,7 @@ classDiagram
 erDiagram
           PERLENGKAPAN ||--|| TAS : is
           PERLENGKAPAN ||--|| SEPATU : is
-          PERLENGKAPAN ||..|{ STOCK : has
+          PERLENGKAPAN ||--|{ STOCK : has
 ```
 
 ### Design Class Diagram for JavaFX and Database
@@ -43,8 +45,8 @@ erDiagram
 classDiagram
       Perlengkapan <|-- Tas
       Perlengkapan <|-- Sepatu
-      Perlengkapan ..o"*" Stock : mempunyai
-      Perlengkapan --o PerlengkapanDataModel : Data Modeling
+      Perlengkapan "0"--o"*" Stock : mempunyai
+      Perlengkapan o-- PerlengkapanDataModel : Data Modeling
       PerlengkapanDataModel <-- KontrolPerlengkapan : Data Control
       PerlengkapanDataModel --> DatabaseHelper : DB Connection
       KontrolPerlengkapan <.. FormPerlengkapan : Form Control
@@ -68,6 +70,8 @@ classDiagram
       class Stock{
         -StringProperty tanggal
         -IntegerProperty jumlah
+        +restocks(int item)
+        +sold(int item)
       }
       class PerlengkapanDataModel{
         Connection conn
