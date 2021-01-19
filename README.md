@@ -1,5 +1,5 @@
 ## :school_satchel: Sistem penambah data Toko Perlengkapan Sekolah :athletic_shoe:
-> Sistem ini dapat melakukan perekaman data yang tersimpan dan menyimpan stock dari toko perlengkapan sekolah, di mana terdapat 2 perlengkapan yaitu sepatu dan tas.
+> Sistem ini dapat melakukan perekaman data yang tersimpan dan menyimpan stock dari toko perlengkapan sekolah, di mana terdapat dua perlengkapan yaitu sepatu dan tas.
 > Setiap barang dapat di tambah stocknya.
 
 :books: Libraries dan Tools project:
