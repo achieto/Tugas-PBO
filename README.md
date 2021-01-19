@@ -13,7 +13,7 @@
      - mermaid
      - GitHub Pull Requests and Issues
 
-## :art: DESIGN
+## :art: Design
 ### Class Diagram
 
 ```mermaid
