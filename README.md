@@ -3,15 +3,15 @@
 > Setiap barang dapat menambah stocknya.
 
 Libraries dan Tools project:
--mysql-connector-java-5.1.49.jar
--sqlite-jdbc-3.340.jar
--Scene builder
--Sqlite studio
--MySQL server with xampp
--Netbeans editor
--VS code plugin
-     -mermaid
-     -GitHub Pull Requests and Issues
+- mysql-connector-java-5.1.49.jar
+- sqlite-jdbc-3.340.jar
+- Scene builder
+- Sqlite studio
+- MySQL server with xampp
+- Netbeans editor
+- VS code plugin
+     - mermaid
+     - GitHub Pull Requests and Issues
 
 ### Class Diagram
 
