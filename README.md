@@ -23,6 +23,7 @@ classDiagram
           -int ukuran
       }
       class Stock{
+          -int nomor
           -String tanggal
           -int jumlah
           +restocks(int item)
@@ -68,6 +69,7 @@ classDiagram
         -IntegerProperty ukuran
       }
       class Stock{
+        -IntegerProperty nomor
         -StringProperty tanggal
         -IntegerProperty jumlah
         +restocks(int item)
@@ -78,8 +80,9 @@ classDiagram
         tambahPerlengkapan()
         tambahTanggal()
         tambahJumlah()
-        getTas()
-        getSepatu()
+        getTass()
+        getSepatus()
+        getStocks()
         nextIDPerlengkapan()
       }
       class KontrolPerlengkapan{
@@ -88,7 +91,6 @@ classDiagram
         handleButtonTambahPerlengkapan()
         loadDataTas()
         loadDataSepatu()
-        loadDataStock()
         handleClearForm()
       }
       class DatabaseHelper{
