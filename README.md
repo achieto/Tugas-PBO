@@ -2,7 +2,7 @@
 > Sistem ini Dapat melakukan perekaman data yang tersimpan dan menyimpan stock dari toko perlengkapan sekolah ,dimana terdapat 2 perlengkapan yaitu sepatu dan tas.
 > Setiap barang dapat menambah stocknya.
 
-:pushpin: Libraries dan Tools project:
+:closed_book: Libraries dan Tools project:
 - mysql-connector-java-5.1.49.jar
 - sqlite-jdbc-3.340.jar
 - Scene builder
