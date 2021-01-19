@@ -1,3 +1,18 @@
+### Toko Perlengkapan Sekolah
+> Sistem ini Dapat melakukan perekaman data yang tersimpan dan menyimpan stock dari toko perlengkapan sekolah ,dimana terdapat 2 perlengkapan yaitu sepatu dan tas.
+> Setiap barang dapat menambah stocknya.
+
+Libraries dan Tools project:
+-mysql-connector-java-5.1.49.jar
+-sqlite-jdbc-3.340.jar
+-Scene builder
+-Sqlite studio
+-MySQL server with xampp
+-Netbeans editor
+-VS code plugin
+     -mermaid
+     -GitHub Pull Requests and Issues
+
 ### Class Diagram
 
 ```mermaid
