@@ -48,7 +48,6 @@ classDiagram
           +sold(int item)
       }
 ```		
-
 ### ER Diagram
 
 ```mermaid
@@ -57,7 +56,6 @@ erDiagram
           PERLENGKAPAN ||--|| SEPATU : is
           PERLENGKAPAN ||--|{ STOCK : has
 ```
-
 ### Design Class Diagram for JavaFX and Database
 
 ```mermaid
