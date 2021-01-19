@@ -1,4 +1,4 @@
-### :briefcase: Toko Perlengkapan Sekolah :shoe: :mans_shoe:
+## :school_satchel: Toko Perlengkapan Sekolah :athletic_shoe:
 > Sistem ini Dapat melakukan perekaman data yang tersimpan dan menyimpan stock dari toko perlengkapan sekolah ,dimana terdapat 2 perlengkapan yaitu sepatu dan tas.
 > Setiap barang dapat menambah stocknya.
 
@@ -13,6 +13,7 @@
      - mermaid
      - GitHub Pull Requests and Issues
 
+## :art: DESIGN
 ### Class Diagram
 
 ```mermaid
