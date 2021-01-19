@@ -1,5 +1,5 @@
 ## :school_satchel: Sistem penambah data Toko Perlengkapan Sekolah :athletic_shoe:
-> Sistem ini dapat melakukan perekaman data yang tersimpan dan menyimpan stock dari toko perlengkapan sekolah, di mana terdapat 2 perlengkapan yaitu sepatu dan tas.
+> :information_source: Sistem ini dapat melakukan perekaman data yang tersimpan dan menyimpan stock dari toko perlengkapan sekolah, di mana terdapat 2 perlengkapan yaitu sepatu dan tas.
 > Setiap barang dapat di tambah stocknya.
 
 :books: Libraries dan Tools project:
@@ -14,7 +14,7 @@
      - GitHub Pull Requests and Issues
 
 ## :art: Design
-> Untuk melihat diagram, install plugin mermaid-diagram di https://github.com/Redisrupt/mermaid-diagrams
+> :information_source: Untuk melihat diagram, install plugin mermaid-diagram di https://github.com/Redisrupt/mermaid-diagrams
 
 ### Class Diagram
 
