@@ -1,4 +1,4 @@
-### :briefcase: Toko Perlengkapan Sekolah :shoe:
+### :briefcase: Toko Perlengkapan Sekolah :shoe: :mans_shoe:
 > Sistem ini Dapat melakukan perekaman data yang tersimpan dan menyimpan stock dari toko perlengkapan sekolah ,dimana terdapat 2 perlengkapan yaitu sepatu dan tas.
 > Setiap barang dapat menambah stocknya.
 
