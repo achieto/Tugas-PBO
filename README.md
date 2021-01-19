@@ -14,7 +14,7 @@
      - GitHub Pull Requests and Issues
 
 ## :art: Design
-Untuk melihat diagram, install plugin mermaid-diagram di https://github.com/Redisrupt/mermaid-diagrams
+> Untuk melihat diagram, install plugin mermaid-diagram di https://github.com/Redisrupt/mermaid-diagrams
 
 ### Class Diagram
 
