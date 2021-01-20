@@ -1,4 +1,4 @@
-## :busts_in_silhouette: Nama Anggota
+## :woman_office_worker: Nama Anggota :man_office_worker:
 - Anggie Tamara (1917051006)
 - Faishal Hariz Makaarim Gandadipoera (1917051065)
 
