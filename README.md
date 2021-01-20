@@ -1,4 +1,9 @@
-## :school_satchel: Sistem Penambahan Data Toko Perlengkapan Sekolah :athletic_shoe:
+## Nama Anggota
+Anggie Tamara (1917051006)
+Faishal Hariz Makaarim Gandadipoera (1917051065)
+Program kami buat bersama-sama dengan berdiskusi online dan jika ada error dan kesalahan kami memperbaikinya bersama-sama (kami sama-sama mencari letak error dan jika salah satu dari kami berhasil, maka program diperbaiki). Untuk FormPerlengkapan.fxml dan KontrolPerlengkapan.java dibuat secara terpisah, kami sama-sama menambahkan jika ada yang kurang dan sebagainya.
+
+# :school_satchel: Sistem Penambahan Data Toko Perlengkapan Sekolah :athletic_shoe:
 > Sistem ini dapat melakukan perekaman data yang tersimpan dan menyimpan stock dari toko perlengkapan sekolah, di mana terdapat dua perlengkapan yaitu sepatu dan tas.
 > Setiap barang dapat di tambah stocknya.
 
