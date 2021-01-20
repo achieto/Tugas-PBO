@@ -70,12 +70,12 @@ classDiagram
 
       class Perlengkapan{
         <<abstract>>
-        #IntegerProperty ID
+        #IntegerProperty IDperlengkapan
         #StringProperty series
         #StringProperty model
         #StringProperty warna
         #IntegerProperty harga
-        +int nextID()
+        +int nextIDperlengkapan()
       }
       
       class Tas{
@@ -94,12 +94,11 @@ classDiagram
       class PerlengkapanDataModel{
         Connection conn
         tambahPerlengkapan()
-        tambahTanggal()
-        tambahJumlah()
         getTass()
         getSepatus()
         getStocks()
         nextIDPerlengkapan()
+        nextNomor()
       }
       class KontrolPerlengkapan{
         inisialisasi()
