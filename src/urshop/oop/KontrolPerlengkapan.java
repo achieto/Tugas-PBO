@@ -248,6 +248,8 @@ public class KontrolPerlengkapan implements Initializable {
             lbSaveStatus.setText("Data Berhasil Disimpan");
             btnReload.fire();
             btnClear.fire();
+            btnreload.fire();
+            btnclear.fire();
         } catch (SQLException ex) {
             lbSaveStatus.setText("Data Gagal Disimpan");
             Logger.getLogger(KontrolPerlengkapan.class.getName()).log(Level.SEVERE, null, ex);
@@ -337,6 +339,8 @@ public class KontrolPerlengkapan implements Initializable {
         try {
             pdm.tambahPerlengkapan(sepatu);
             lbsavestatus.setText("Data Berhasil Disimpan");
+            btnReload.fire();
+            btnClear.fire();
             btnreload.fire();
             btnclear.fire();
         } catch (SQLException ex) {
@@ -355,6 +359,8 @@ public class KontrolPerlengkapan implements Initializable {
         try {
             pdm.tambahStock(Integer.parseInt(tfnewid.getText()), stock);
             viewdatastock(Integer.parseInt(tfnewid.getText()));
+            btnReload.fire();
+            btnClear.fire();
             btnreload.fire();
             btnclear.fire();
         } catch (SQLException ex) {
@@ -385,8 +391,10 @@ public class KontrolPerlengkapan implements Initializable {
         try {
             pdm = new PerlengkapanDataModel("MYSQL");
             lbDBStatus.setText(pdm.conn==null?"Tidak terkoneksi":"Terkoneksi");
-            btnClear.fire();
             btnReload.fire();
+            btnClear.fire();
+            btnreload.fire();
+            btnclear.fire();
         } catch (SQLException ex) {
             Logger.getLogger(KontrolPerlengkapan.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -410,8 +418,10 @@ public class KontrolPerlengkapan implements Initializable {
         try {
             pdm = new PerlengkapanDataModel("MYSQL");
             lbDBStatus.setText(pdm.conn==null?"Tidak terkoneksi":"Terkoneksi");
-            btnclear.fire();
+            btnReload.fire();
+            btnClear.fire();
             btnreload.fire();
+            btnclear.fire();
         } catch (SQLException ex) {
             Logger.getLogger(KontrolPerlengkapan.class.getName()).log(Level.SEVERE, null, ex);
         }
