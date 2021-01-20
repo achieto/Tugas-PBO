@@ -26,12 +26,12 @@ classDiagram
 
       class Perlengkapan{
         <<abstract>>
-        #int ID
+        #int IDperlengkapan
         #String series
         #String model
         #String warna
         #int harga
-        +int nextID()
+        +int nextIDperlengkapan()
       }
       
       class Tas{
