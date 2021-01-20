@@ -1,6 +1,8 @@
 ## Nama Anggota
-Anggie Tamara (1917051006)
-Faishal Hariz Makaarim Gandadipoera (1917051065)
+- Anggie Tamara (1917051006)
+- Faishal Hariz Makaarim Gandadipoera (1917051065)
+
+#### Pembagian Tugas
 > Program kami buat bersama-sama dengan berdiskusi online dan jika ada error dan kesalahan kami memperbaikinya bersama-sama (kami sama-sama mencari letak error dan jika salah satu dari kami berhasil, maka program diperbaiki). Untuk FormPerlengkapan.fxml dan KontrolPerlengkapan.java dibuat secara terpisah, kami sama-sama menambahkan jika ada yang kurang dan sebagainya.
 
 # :school_satchel: Sistem Penambahan Data Toko Perlengkapan Sekolah :athletic_shoe:
