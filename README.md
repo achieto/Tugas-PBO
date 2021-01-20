@@ -1,4 +1,4 @@
-## Nama Anggota
+## :busts_in_silhouette: Nama Anggota
 - Anggie Tamara (1917051006)
 - Faishal Hariz Makaarim Gandadipoera (1917051065)
 
